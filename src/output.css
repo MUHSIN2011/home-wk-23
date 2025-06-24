@@ -582,6 +582,14 @@ video {
   margin-left: 1.25rem;
 }
 
+.ml-6 {
+  margin-left: 1.5rem;
+}
+
+.ml-\[10\%\] {
+  margin-left: 10%;
+}
+
 .mt-10 {
   margin-top: 2.5rem;
 }
@@ -602,20 +610,8 @@ video {
   margin-left: 2.5rem;
 }
 
-.ml-\[50\%\] {
-  margin-left: 50%;
-}
-
-.ml-\[30\%\] {
-  margin-left: 30%;
-}
-
-.ml-\[20\%\] {
-  margin-left: 20%;
-}
-
-.ml-\[10\%\] {
-  margin-left: 10%;
+.mb-5 {
+  margin-bottom: 1.25rem;
 }
 
 .flex {
@@ -624,6 +620,10 @@ video {
 
 .grid {
   display: grid;
+}
+
+.h-\[1px\] {
+  height: 1px;
 }
 
 .w-\[20\%\] {
@@ -650,6 +650,10 @@ video {
   width: 450px;
 }
 
+.w-\[46\%\] {
+  width: 46%;
+}
+
 .w-\[48\%\] {
   width: 48%;
 }
@@ -664,6 +668,50 @@ video {
 
 .w-\[70\%\] {
   width: 70%;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[80\%\] {
+  width: 80%;
+}
+
+.w-\[75\%\] {
+  width: 75%;
+}
+
+.w-\[78\%\] {
+  width: 78%;
+}
+
+.w-\[90\%\] {
+  width: 90%;
+}
+
+.w-\[85\%\] {
+  width: 85%;
+}
+
+.w-\[88\%\] {
+  width: 88%;
+}
+
+.w-\[25\%\] {
+  width: 25%;
+}
+
+.w-\[50\$\] {
+  width: 50$;
+}
+
+.w-\[100\] {
+  width: 100;
+}
+
+.w-\[100\%\] {
+  width: 100%;
 }
 
 .max-w-\[1200px\] {
@@ -698,6 +746,10 @@ video {
   gap: 5rem;
 }
 
+.gap-3 {
+  gap: 0.75rem;
+}
+
 .gap-\[200px\] {
   gap: 200px;
 }
@@ -708,6 +760,10 @@ video {
 
 .rounded-\[20px\] {
   border-radius: 20px;
+}
+
+.border-\[3px\] {
+  border-width: 3px;
 }
 
 .bg-\[\#043E51\] {
@@ -740,9 +796,19 @@ video {
   background-color: rgb(255 166 58 / var(--tw-bg-opacity, 1));
 }
 
+.bg-\[\#FFF8EB\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 248 235 / var(--tw-bg-opacity, 1));
+}
+
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+.bg-gray-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(107 114 128 / var(--tw-bg-opacity, 1));
 }
 
 .p-3 {
@@ -751,6 +817,11 @@ video {
 
 .p-5 {
   padding: 1.25rem;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 
 .px-5 {
@@ -771,8 +842,16 @@ video {
   text-align: center;
 }
 
+.font-\[\] {
+  font-family: ;
+}
+
 .text-\[22px\] {
   font-size: 22px;
+}
+
+.text-\[25px\] {
+  font-size: 25px;
 }
 
 .text-\[30px\] {
@@ -810,9 +889,18 @@ video {
   color: rgb(255 168 0 / var(--tw-text-opacity, 1));
 }
 
+.text-\[\#FFAD0F\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 173 15 / var(--tw-text-opacity, 1));
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\] {
+  color: ;
 }
 
 .underline {
